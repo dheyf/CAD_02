@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(
+        135deg,
+        rgb(62, 118, 128),
+        rgb(31, 187, 235)
+    );
+
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 350px;
+    margin: 60px auto;
+    background-color: rgb(247, 249, 250);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1{
+    color: rgb(108, 145, 155);
+}
+p{
+    color: rgb(108, 145, 155);
+}
+input::placeholder{
+    color: rgb(108, 145, 155);
+}
